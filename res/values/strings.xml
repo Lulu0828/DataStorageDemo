@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DataStorageDemo</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="datastorage_file_txt">使用file存储数据</string>
+    <string name="datastorage_sharedpreferences_txt">使用SharedPreferences存储数据</string>
+    <string name="datastorage_sqlite_txt">使用SQLite存储数据</string>
+    
+    <string name="input_data_hint">请输入任意内容</string>
+    <string name="write_txt">写    入</string>
+    <string name="read_txt">读    取</string>
+
+</resources>

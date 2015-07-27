@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button 
+        android:id="@+id/datastorage_file_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/datastorage_file_txt"/>
+
+    <Button 
+        android:id="@+id/datastorage_sharedpreferences_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/datastorage_sharedpreferences_txt"/>
+
+    <Button 
+        android:id="@+id/datastorage_sqlite_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/datastorage_sqlite_txt"/>
+
+</LinearLayout>
